@@ -1,0 +1,14 @@
+.muted{
+    opacity: 0.75;
+}
+
+.btn-progress{
+    background: rgb(221, 221, 221);
+    color: rgb(89, 89, 89);
+}
+
+.btn-progress:hover{
+    background: rgb(169, 169, 169);
+    color: black;
+}
+
