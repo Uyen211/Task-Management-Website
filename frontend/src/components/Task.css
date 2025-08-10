@@ -1,37 +1,36 @@
-
-.btn-add{
-  background: rgb(133, 0, 200);
-  color: white;
-  box-shadow: 0 2px 10px rgb(222, 157, 255); 
-  font-weight: bold;
+.btn-add {
+    background: rgb(133, 0, 200);
+    color: white;
+    box-shadow: 0 2px 10px rgb(222, 157, 255);
+    font-weight: bold;
 }
 
-.btn-add:hover{
-  background: rgb(105, 0, 157);
-  color: white;
-  box-shadow: 0 2px 10px rgb(222, 157, 255); 
-  font-weight: bold;
+.btn-add:hover {
+    background: rgb(105, 0, 157);
+    color: white;
+    box-shadow: 0 2px 10px rgb(222, 157, 255);
+    font-weight: bold;
 }
 
-.btn-logout{
-  background: rgb(230, 180, 255);
-  color: black;
-  box-shadow: 0 2px 10px rgb(182, 37, 255); 
-  font-weight: bold;
+.btn-logout {
+    background: rgb(230, 180, 255);
+    color: black;
+    box-shadow: 0 2px 10px rgb(182, 37, 255);
+    font-weight: bold;
 }
 
-.btn-logout:hover{
-  background: #d278ff;
-  color: black;
-  box-shadow: 0 2px 10px rgb(170, 0, 255);
-  font-weight: bold;
+.btn-logout:hover {
+    background: #d278ff;
+    color: black;
+    box-shadow: 0 2px 10px rgb(170, 0, 255);
+    font-weight: bold;
 }
 
-#alert{
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out
+#alert {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #alert.visible {
-  opacity: 1;
+    opacity: 1;
 }

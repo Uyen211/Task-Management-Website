@@ -1,10 +1,10 @@
-import path from "path";
-import express from "express";
-import morgan from "morgan";
-import bcrypt from "bcryptjs";
-import jwt from "jsonwebtoken";
-import { connect } from "./config/db/db.js";
-import route from "./routes/index.route.js";
+import path from 'path';
+import express from 'express';
+import morgan from 'morgan';
+import bcrypt from 'bcryptjs';
+import jwt from 'jsonwebtoken';
+import { connect } from './config/db/db.js';
+import route from './routes/index.route.js';
 import cors from 'cors';
 import dotenv from 'dotenv';
 

@@ -1,5 +1,4 @@
-
-.ctn-center{
+.ctn-center {
     margin: 100px auto;
     display: flex;
     flex-direction: column;
@@ -10,8 +9,7 @@
     border: 3px solid rgb(0, 45, 227);
 }
 
-
-.header{
+.header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,13 +17,13 @@
     width: 100%;
 }
 
-.text{
+.text {
     color: #0031f7;
     font-size: 48px;
     font-weight: 700;
 }
 
-.underline{
+.underline {
     width: 61px;
     height: 6px;
     background: #0033ff;
@@ -39,7 +37,7 @@
     gap: 20px;
 }
 
-.input-loginSignup{
+.input-loginSignup {
     display: flex;
     margin: auto;
     align-items: center;
@@ -48,23 +46,19 @@
     background: #eaeaea;
     border-radius: 8px;
     border: 1px solid rgb(83, 83, 255);
-    box-shadow:4px 4px 8px rgb(83, 83, 255);
+    box-shadow: 4px 4px 8px rgb(83, 83, 255);
     transition: all 0.3s ease;
-
 }
 
-
-  .input-loginSignup:hover {
+.input-loginSignup:hover {
     transform: translateY(-2px); /* nâng nhẹ lên */
-  }
+}
 
-  
 .input-loginSignup img {
     margin: 0px 20px;
     width: 55px;
     height: 50px;
 }
-
 
 .input-loginSignup input {
     margin: 10px;
@@ -77,13 +71,11 @@
     font-weight: 500;
 }
 
-.div-is-invalid{
+.div-is-invalid {
     border: 1px solid rgb(255, 0, 0);
-    box-shadow:4px 4px 8px rgb(255, 0, 0);
+    box-shadow: 4px 4px 8px rgb(255, 0, 0);
     transition: all 0.3s ease;
-
 }
-
 
 .submit-container-div {
     display: flex;
@@ -92,20 +84,17 @@
     margin-top: 20px;
 }
 
-
-
 .feedback {
-  color: red;
-  font-size: 0.85rem;
-  margin: auto;
+    color: red;
+    font-size: 0.85rem;
+    margin: auto;
 }
 
-
-#alert{
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out
+#alert {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 #alert.visible {
-  opacity: 1;
+    opacity: 1;
 }

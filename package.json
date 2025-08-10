@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "beautiful": "prettier --single-quote --trailing-comma all --tab-width 4 --write 'src/**/*.{js,json,scss}'",
+    "beautiful": "prettier --single-quote --trailing-comma all --tab-width 4 --write \"{backend/**/*.{js,json,scss},frontend/src/**/*.{js,jsx,json,scss,css}}\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon --inspect backend/main.js"
   },

@@ -1,11 +1,12 @@
-
-
 body {
-  background: linear-gradient(to bottom right, rgb(94, 94, 255), rgb(124, 0, 195));
-  
-  margin: 0px;
-  padding: 0px;
-  min-width: 320px;
-  min-height: 100vh;
-}
+    background: linear-gradient(
+        to bottom right,
+        rgb(94, 94, 255),
+        rgb(124, 0, 195)
+    );
 
+    margin: 0px;
+    padding: 0px;
+    min-width: 320px;
+    min-height: 100vh;
+}
